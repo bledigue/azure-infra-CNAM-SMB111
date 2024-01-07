@@ -1,0 +1,26 @@
+{
+  "name": "blobupload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.17.0",
+    "parcel": "^2.11.0"
+  },
+  "browserslist": [
+    "last 1 Edge version",
+    "last 1 Chrome version",
+    "last 1 Firefox version",
+    "last 1 safari version",
+    "last 1 webkit version"
+  ],
+  "devDependencies": {
+    "buffer": "^6.0.3"
+  }
+}
