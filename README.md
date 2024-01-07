@@ -10,12 +10,19 @@ c(Azure Function)
 d(Cognitive Services Computer Vision)
 e(Azure Cosmos DB)
 a --Image upload--> b -- Trigger --> c --Image recognition--> d
-c -- Description storage--> e --> a
+c -- Image description storage--> e --> a
+
 ```
 
 ## Project Status
 
 As of the current iteration, the image description retrieval process through Azure Computer Vision within the Azure Function is functional. However, the implementation of the output binding to Azure Cosmos DB is pending. Several potential workarounds have been identified but have not yet been implemented.
+
+- [x] Image upload on blob storage through web application
+- [x] Azure function triggered by upload
+- [x] Image recognition with Computer Vision
+- [ ] Image description stored in Azure Cosmos DB
+- [ ] Image description relayed to the user
 
 ## Next Steps
 
