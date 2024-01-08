@@ -20,6 +20,7 @@ The project structure is relatively straightforward :
 └─ The webapp folder contains a nodejs web application.
 └─ The azure_function folder contains a python azure function. 
 └─ The script archi.sh is designed to create Azure resources and deploy the web application and Azure Function 
+
 ## Project Status
 
 As of the current iteration, the image description retrieval process through Azure Computer Vision within the Azure Function is functional. However, the implementation of the output binding to Azure Cosmos DB is pending. Several potential workarounds have been identified but have not yet been implemented.
